@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Updated font to Poppins */
+    background-color: #0f0f2b; /* Dark blue as background color */
+}
+
+header .navbar {
+    background-color: #0a0a1a; /* Darker shade of dark blue */
+}
+.navbar-brand , .nav-link {
+    color: aliceblue;
+}
+.navbar-brand {
+    font-size: 1.7rem;
+}
+
+.hero {
+    height: 100vh;
+    background-color: #0f0f2b; /* Solid dark blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1, .hero p {
+    color: #ffffff;
+}
+
+#countdown {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+/* About Section Background matches the Navbar */
+#about {
+    background-color: #021526 !important; /* Same dark blue as navbar */
+}
+
+#about h3 {
+    color: #f0f0f5; /* Off-white for contrast */
+}
+
+
+
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(to top, #36454f 0%, #21313e 100%) !important;;
+    color: aliceblue; /* Black text */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+#gift {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    position: relative; 
+    background-color: #021526 !important;
+    overflow: hidden;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, #36454f 0%, #21313e 100%) !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: aliceblue;
+    width: 200px;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card:hover {
+    transform: scale(1.3);
+    transition: all 1s ease;
+}
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+}
+.card h5 {
+    font-size: 2rem !important;
+    margin-bottom: 30px;
+}
+.card .gift-button {
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.ready {
+    padding: 20px;
+    font-size: 2em;
+    transition: all 0.3s ease-in-out, transform 0.2s linear;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+#funny-moment {
+    background: linear-gradient(to top, #36454f 0%, #21313e 100%) !important;
+    color: aliceblue;
+}
+
+.clickphoto {
+    font-size: 0.5em;
+}
+
+.blurred {
+    filter: blur(20px);
+    opacity: 0.3;
+}
+
